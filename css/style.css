@@ -18,13 +18,13 @@ header p{
     margin: auto 0px;
 }
 header nav{
-    width: 350px;
+    width: 150px;
     margin: auto 0px;
     display: flex;
     justify-content: space-between;
 }
 header nav a{
-    width: 50%;
+    width: 100%;
     height: 30px;
     text-align: center;
     text-decoration: none;
@@ -40,38 +40,45 @@ header nav a:hover{
 article{
     width: 80%;
     margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 article section{
-    width: 350px;
+    min-width: 400px;
     background: #561e18;
     padding: 5px;
+    margin: 5px;
 }
 article section .Titulo{
+    width: 550px;
     font-size: 25px;
     font-weight: bold;
 }
 article section .Descrpcion{
+    max-width: 550px;
     font-size: 17px;
     margin: 5px;
 }
-article div{
-    width: 100%;
-}
 article div p{
-    width: 70%;
+    margin: 0px auto;
+    width: 300px;
+    padding: 5px 0px;
     text-align: center;
     background: #f7f7f7;
-    padding: 5px;
-    margin: 0px auto;
     font-weight: bold;
 }
 article div p:hover{
     transition: 2s;
-    padding: 10px;
+    padding: 8px;
+    font-size: 17px;
     border-radius: 6px;
     background: #C7BEBC;
 }
 @media screen and (max-width: 768px){
+    article section{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 480px){
 

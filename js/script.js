@@ -8,3 +8,6 @@ document.getElementById('mj_n').addEventListener('click', ()=>{
         window.open('https://mega.nz/file/NeZUWZxQ#Swc6OhDrwr2-QfJs-mWXzY5nVA-cWjZo6yKmo8_qsXw', 'blank');
     }, 500);
 });
+if(screen.width < 320){
+    alert('AVISO, NO ESTA DISEÑADO PARA CELULARES DE PANTALLA MUY CHICA');
+}

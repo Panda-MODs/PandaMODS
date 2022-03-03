@@ -75,6 +75,34 @@ article div p:hover{
     border-radius: 6px;
     background: #C7BEBC;
 }
+footer{
+    max-width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+footer .contacto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+footer .contacto label{
+    color: #f7f7f7;
+    font-size: 22px;
+}
+footer .contacto input{
+    font-size: 20px;
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+}
+footer h1{
+    color: #f7f7f7;
+    margin: 0px auto;
+}
+
 @media screen and (max-width: 768px){
     article section .Titulo{
         text-align: center;
